@@ -2,7 +2,7 @@ ARG IMAGE_BASE=quay.io/almalinuxorg/almalinux-bootc
 
 # This points to the very latest
 # It's mainly here to cause rebuilds when renovate updates it
-ARG IMAGE_TAG=10@sha256:bea75a4c2fa603c158c7200b59efc1f629079a13a46aaac4a386b7bd099f9766
+ARG IMAGE_TAG=10@sha256:25e379818aaf90e946131961bdeadea1efa2ccb5b804636592a27763f5cdbcbe
 
 FROM ${IMAGE_BASE}:${IMAGE_TAG}
 
